@@ -1,0 +1,54 @@
+body {
+    margin: 0;
+    padding: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+input {
+    padding: 10px;
+    width: 100%;
+    /* Let the full width include the padding */
+    box-sizing: border-box;  
+    border-radius: 5px;
+    margin-bottom: 5px;
+    border: 1px solid blue;
+    min-width: 400px;
+
+}
+
+button {
+    color: white;
+    background-color: blue;
+    border-radius: 5px;
+    padding: 10px;
+    border: 1px solid blue;
+    font-weight: bold;
+}
+
+#delete-btn {
+    background-color: red;
+
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: white;
+    color: blue;
+    border: 1px solid blue;
+}
+
+ul {
+    list-style: none;
+    padding-left: 0;
+    margin-top: 20px;
+    
+}
+
+li {
+    margin-top: 5px;
+
+}
+
+li a {
+    color: blue;
+}
